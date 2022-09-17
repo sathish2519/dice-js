@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ribeye+Marrow&display=swap');
+body{
+    background: radial-gradient(#e66465,#FFE9A0);
+    font-family: "Ribeye Marrow",sans-serif;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+h1{
+    margin-left: -110px;
+}
+.container1{
+    display: block;
+    position : relative;
+    padding: 10px 180px;
+    text-align: center;
+}
+.btn{
+    position: relative;
+    text-align: center;
+    right: 50px;
+    top: 50px;
+    
+}
+#dice-btn{
+    cursor: pointer;
+    border: 0px;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+}
+button:hover{
+color: #e66465;
+}
+.row{
+    display: flex;
+}
+.player1{
+    width: 50%;
+    column-gap: 20px;
+}
+.img-dice{
+    border-radius: 25px;
+    box-shadow:0px 15px 15px 2px ;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    margin-top:80px;
+    right: 50px;
+    font-family: "Poppins",sans-serif;
+}
